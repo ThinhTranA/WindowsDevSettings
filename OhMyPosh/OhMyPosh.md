@@ -36,5 +36,6 @@ Install nerd Fonts
     "terminal.integrated.fontFamily": "'3270Medium Nerd Font'", 
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.rightClickCopyPaste": true,
+    "terminal.integrated.copyOnSelection": true
 }
 ```
