@@ -9,7 +9,9 @@
     "vim.handleKeys": {
         "<C-d>": false,
         "<C-k>": false,
+        "<C-f>": false,
         "<C-s>": false,
+        "<C-y>": false,
         "<C-z>": false,
         "<C-c>": false,
         "<C-v>": false
