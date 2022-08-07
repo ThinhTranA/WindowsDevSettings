@@ -1,6 +1,8 @@
 ### Install NeoVim
 > winget install Neovim.Neovim
 
+---
+
 ### Setup user profile & command aliases
 > mkdir .config/powershell
 
@@ -31,3 +33,15 @@ oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\bubbles.omp.json" | Invoke-
 . $env:USERPROFILE\.config\powershell\user_profile.ps1
 ```
 Above aliases should now be added. Open another terminal session to make sure they work.
+
+---
+### Setup Vim config file on Windows
+Find the path by running this command while have Vim editor open:
+> :echo stdpath('config')
+Example result would be:
+`C:\Users\Thinh\AppData\Local\nvim`
+
+Go to this path ` ~/Appdata/Local` and make directory `nvim` it is not there already
+
+Create `init.vim` file
+> vim ~/Appdata/Local/nvim/init.vim 
