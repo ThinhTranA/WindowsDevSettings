@@ -1,0 +1,1 @@
+Add `.ideavimrc` file to Home Directory if it is not there yet
